@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Test {
+public class NumeroRomanoController {
 
     @GetMapping("/converterromanos/{number}")
     public ResponseEntity<String> getNumeroRomano(@PathVariable Integer number) {
