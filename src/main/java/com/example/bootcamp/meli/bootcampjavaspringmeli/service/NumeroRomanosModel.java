@@ -1,5 +1,8 @@
 package com.example.bootcamp.meli.bootcampjavaspringmeli.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class NumeroRomanosModel {
     public static String intToRoman(Integer num) {
         StringBuilder sb = new StringBuilder();
