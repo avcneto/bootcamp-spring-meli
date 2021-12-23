@@ -1,6 +1,6 @@
-package com.example.bootcamp.meli.bootcampjavaspringmeli.model;
+package com.example.bootcamp.meli.bootcampjavaspringmeli.service;
 
-public class NumeroRomanos {
+public class NumeroRomanosModel {
     public static String intToRoman(Integer num) {
         StringBuilder sb = new StringBuilder();
         int times = 0;
